@@ -6,6 +6,8 @@ import (
 	"context"
 )
 
+// This is just boilerplate grabbed from some gist.
+
 func GoogleDNSDialer(ctx context.Context, network, address string) (net.Conn, error) {
 	d := net.Dialer{}
 	return d.DialContext(ctx, "udp", "localhost:8089")

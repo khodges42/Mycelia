@@ -8,6 +8,9 @@ import (
 	layers "github.com/google/gopacket/layers"
 )
 
+// This is just boilerplate grabbed from some gist.
+
+
 var records map[string]string
 
 func main() {
